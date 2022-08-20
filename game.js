@@ -75,7 +75,7 @@ function fuckoff()
 { var audio = new Audio("sounds/wrong.mp3");
   audio.play();
   $("body").addClass("game-over");
-  $("h1").text("Game over bitch. Press any key to restart.");
+  $("h1").text("Game over boii. Press any key to restart.");
   setTimeout(function(){
     $("body").removeClass("game-over");
    },1000);
